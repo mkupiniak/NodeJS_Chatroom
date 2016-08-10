@@ -1,0 +1,19 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "A CodersLab's participants inner chat by Mateusz Kupiniak",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Mateusz Kupiniak",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.6.1",
+    "jade": "1.4.2",
+    "socket.io": "1.0.6",
+    "underscore": "1.6.0",
+    "body-parser": "1.4.3"
+  }  
+}
